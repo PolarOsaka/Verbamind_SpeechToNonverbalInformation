@@ -1,0 +1,23 @@
+# 1. Byte-compiled / optimized files (Hasil generate otomatis Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 2. Virtual Environment (Folder isolated environment kamu)
+venv/
+.venv/
+env/
+
+# 3. Environment variables & Secrets (Kunci API / Password / DB Url)
+.env
+*.secret
+
+# 4. Folder Editor & IDE
+.vscode/
+.idea/
+
+# 5. Data & File Hasil Output / Log
+*.log
+*.sqlite3
+tests/categoryperframe.csv
