@@ -34,3 +34,15 @@ MIN_LOUDNESS_DEVIATION = 1e-3
 LOUDNESS_METHOD = "median"
 
 REFERENCE_PRESSURE = 20e-6  # 20 µPa
+
+# ===========================
+# Pitch
+# ===========================
+
+PITCH_MAX = 300
+
+PITCH_MIN = 75
+
+PITCH_CORRELATION_THRESHOLD = 0.3
+
+PITCH_PROMINENCE = 0.5

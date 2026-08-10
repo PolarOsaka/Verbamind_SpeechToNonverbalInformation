@@ -20,9 +20,9 @@ def initialize_baseline(loudness_values):
     if len(values) == 0:
         raise ValueError("No loudness values provided.")
 
-    baseline = np.median(values)
+    baseline = np.nanmedian(values)
 
-    deviation = np.median(np.abs(values - baseline))
+    deviation = np.nanmedian(np.abs(values - baseline))
 
     return LoudnessBaseline(
         baseline=float(baseline),
