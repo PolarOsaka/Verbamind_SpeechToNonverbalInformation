@@ -5,7 +5,7 @@
 ## 📋 Features & Roadmap
 
 - [x] **Loudness Change Detection** *(Active & Improved)*
-- [ ] **Pitch Change Detection** *(In Development)*
+- [X] **Pitch Change Detection** *(Active & Improved)*
 - [ ] **Speech Rate Change Detection** *(In Development)*
 - [ ] **Pause Detection** *(In Development)*
 
